@@ -10,7 +10,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/funcionarios")
 public class FuncionarioController {
-//    private final FuncionarioRepository repository;
 
     private final FuncionarioService service;
 
@@ -18,9 +17,6 @@ public class FuncionarioController {
         this.service = service;
     }
 
-//    public FuncionarioController(FuncionarioRepository repository) {
-//        this.repository = repository;
-//    }
 
     @PostMapping
     public Funcionario salvar(@RequestBody Funcionario funcionario) {
