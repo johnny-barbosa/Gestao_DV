@@ -1,7 +1,6 @@
 package com.system.gestao_empresarial.controller;
 
 import com.system.gestao_empresarial.entity.Funcionario;
-import com.system.gestao_empresarial.repository.FuncionarioRepository;
 import com.system.gestao_empresarial.service.FuncionarioService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
